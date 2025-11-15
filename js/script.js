@@ -1,3 +1,23 @@
+// Mobile Menu Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('nav ul');
+
+    if (menuToggle) {
+        menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const navLinks = document.querySelectorAll('nav ul li a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+            });
+        });
+    }
+});
+
 // Form Validation
 function validateForm() {
     const name = document.querySelector('input[name="name"]');
@@ -90,17 +110,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     lightboxImg.src = this.src;
                     lightboxImg.alt = this.alt;
                     lightbox.style.display = 'flex';
-                    lightbox.style.justifyContent = 'center';
-                    lightbox.style.alignItems = 'center';
-                    lightbox.style.position = 'fixed';
-                    lightbox.style.top = '0';
-                    lightbox.style.left = '0';
-                    lightbox.style.width = '100%';
-                    lightbox.style.height = '100%';
-                    lightbox.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
-                    lightbox.style.zIndex = '1000';
-                    lightboxImg.style.maxWidth = '90%';
-                    lightboxImg.style.maxHeight = '90%';
                 }
             });
         });

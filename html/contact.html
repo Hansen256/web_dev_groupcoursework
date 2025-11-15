@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/design.css">
+</head>
+<body>
+<nav>
+    <button class="menu-toggle">☰</button>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+<div class="breadcrumb">
+    <a href="index.html">Home</a> <span>/</span> <span>Contact</span>
+</div>
+
+<section>
+    <h2>Contact / Feedback Form</h2>
+
+    <form name="contactForm" onsubmit="return validateForm()">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" title="Full name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" title="Email address">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Enter your message here" title="Message"></textarea>
+
+        <button type="submit" class="cta-button">Submit</button>
+    </form>
+</section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Uganda</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Tours & Packages</h3>
+            <ul>
+                <li><a href="packages.html">Tour Packages</a></li>
+                <li><a href="destinations.html">Popular Spots</a></li>
+                <li><a href="contact.html">Inquire Now</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Hours of Operation</h3>
+            <ul>
+                <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
+                <li>Saturday: 10:00 AM - 4:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Info</h3>
+            <ul>
+                <li>Email: info@exploreganda.com</li>
+                <li>Phone: +256 XXX XXX XXX</li>
+                <li>Location: Kampala, Uganda</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Explore Uganda. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
