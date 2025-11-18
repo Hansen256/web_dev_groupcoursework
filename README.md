@@ -2,12 +2,6 @@
 
 A responsive tourism website showcasing Uganda's top destinations and tour packages.
 
-## Quick Start
-
-1. Open `html/index.html` in your browser
-2. Navigate through the site using the menu
-3. Click on images in the gallery to view them in fullscreen
-4. Fill out the contact form to inquire about tours
 
 ## Features
 
