@@ -24,10 +24,8 @@ Groupd_coursework/
 │   ├── gallery.html
 │   ├── packages.html
 │   └── contact.html
-├── css/               # Stylesheets
-│   ├── design.css
-│   └── style.css
-├── js/                # JavaScript functionality
+├── design.css         # Main stylesheet
+├── script.js          # JavaScript functionality
 │   └── script.js
 ├── images/            # Project images
 │   ├── queenelizabeth_national park.jpg
